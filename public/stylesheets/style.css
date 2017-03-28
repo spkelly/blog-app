@@ -1,90 +1,154 @@
-.logo{
-  font-family: 'Lobster', cursive;
-  font-size: 11vmin;
-  letter-spacing: 5px;
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 17vmin;
+    letter-spacing: 20px;
+    margin-bottom: 100px;
+    margin-left: 40px;
 }
-.blogname{
-  font-family: 'Lobster', cursive;
-}
-.content{
-  font-family: 'Gruppo', cursive;
-}
-.jumbotron{
-  background-color: rgb(195, 209, 218);
 
-}
-.profileImg{
-  margin-top: 50px;
-  margin: 10px;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  border: 3px solid #3d3d3d;
-}
-.uploadImg{
-  margin-left: 430px;
-}
-.forms{
-  margin-top: 50px;
-  margin-right: 50px;
-}
-.buttons{
-  margin-right: 60px;
-}
-.blogtitle{
-  font-family: 'Lobster', cursive;
-}
-.fullblogtitle{
-  font-family: 'Lobster', cursive;
-  font-size: 9vmin;
-}
-.blogtitle, .user{
-  /*background-color: rgb(219, 219, 219);*/
-  background-color: rgb(195, 209, 218);
-
-  margin: 10px;
-}
-.user{
-  margin-top: -10px;
-}
-.fullblog{
-  border: 2px solid rgb(219, 219, 219);
-  /*background-color: rgb(238, 238, 238);*/
-
-  cursor: pointer;
+li{
   text-decoration: none;
-  color: #000;
+  list-style: none;
+  cursor: pointer;
 }
-a:hover{
-  text-decoration: none !important;
-}
-.blogcontent{
-  margin: 10px;
-}
-.commentCon{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin: 10px, 10px;
-  width: 50%;
-  background-color: rgb(238, 238, 238);
-  border: 2px solid rgb(219, 219, 219);
-}
-.comment{
-  background-color: rgb(238, 238, 238);
-}
-.comTit{
-  font-family: 'Lobster', cursive;
-  background-color: rgb(219, 219, 219);
-}
-button{
-  margin-bottom: 50px;
-}
-.navbar-brand{
-  color: rgb(195, 209, 218);
 
+#newpost{
+  font-size: 4vmin;
 }
-.formtable{
-  margin-top: 10px;
-  background-color: rgb(238, 238, 238);
 
+.blogname {
+    font-family: 'Lobster', cursive;
+}
+
+.minilogo{
+    color: rgb(195, 209, 218)
+}
+
+.content {
+    font-family: 'Gruppo', cursive;
+}
+
+.jumbotron {
+    background-color: rgb(195, 209, 218);
+    margin-top: 50px;
+}
+
+#logoHeader{
+  padding: 100px 100px;
+}
+#logoHeaderp{
+  padding-bottom: 160px 160px;
+}
+
+.profileImg, #newUserImg {
+    margin-top: 50px;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid #3d3d3d;
+}
+
+.uploadImg {
+    margin-left: 430px;
+}
+
+.forms {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.buttons {
+    margin-right: 60px;
+}
+
+.blogtitle {
+    font-family: 'Lobster', cursive;
+}
+
+.fullblogtitle {
+    font-family: 'Lobster', cursive;
+    font-size: 9vmin;
+}
+
+.blogtitle, .user {
+    background-color: rgb(195, 209, 218);
+    margin: 10px;
+}
+
+.user {
+    margin-top: -10px;
+}
+
+.fullblog {
+    border: 2px solid rgb(219, 219, 219);
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.blogcontent {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.commentCon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 10px, 10px;
+    width: 50%;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(219, 219, 219);
+}
+
+.commentCon {
+    background-color: rgb(238, 238, 238);
+}
+
+.comTit {
+    font-family: 'Lobster', cursive;
+    background-color: rgb(195, 209, 218);
+}
+
+i{
+  color: rgb(150, 172, 186);
+}
+
+button {
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    color: rgb(195, 209, 218);
+}
+
+.formtable {
+    margin-top: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+.hide {
+    display: none;
+}
+
+textarea {
+    width: 900px;
+}
+
+.btn-primary {
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    textarea {
+        width: 600px;
+    }
+    .logo{
+      letter-spacing: 8px;
+      margin-left: 4px;
+    }
 }

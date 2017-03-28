@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Blog</title>
+    <title>Blog Kitten | Feed</title>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- bootstrap -->
@@ -15,7 +15,8 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Gruppo|Lobster" rel="stylesheet">
     <!-- css stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="/javascripts/appFronEnd.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -29,74 +30,45 @@
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
-                <a class="navbar-brand blogname" href="index.html">Blog kittens</a>
+                <a class="navbar-brand blogname minilogo" href="/">Blog Kitten</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active content"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li class="content"><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> New Post</a></li>
-                    <li class="content"><a href="newUser.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> New User</a></li>
-                    <li class="content"><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                    <li class="content"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li class="content"><a href="../newuser"><i class="fa fa-address-card-o" aria-hidden="true"></i> New User</a></li>
+                    <li class="content"><a href="../users/1"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- CONTENT JUMBOTRON START -->
     <div class="container text-center">
-        <div class="jumbotron">
-          <h1 class="blogname logo">Blog <img class="icon" src="http://www.iconninja.com/files/287/869/197/client-cat-icon.png"/>Kittens</h1>
-            <p class="content">Quick slogan about our awesome new blog.</p>
+        <div id="logoHeader" class="jumbotron">
+            <h1 class="blogname logo">Blog <img class="icon" src="http://www.iconninja.com/files/287/869/197/client-cat-icon.png"/> Kitten</h1>
+            <p class="content">The Kats Meow.<br>Click on the post you want to read, comment, and enjoy.</p><br>
+            <li id="newpost" class="content"><i class="fa fa-pencil" aria-hidden="true"></i> New Post</li>
         </div>
     </div>
-    <a href="fullpage.html"><div class="container fullblog text-center">
-        <h2 class="blogtitle">Blog Title</h2>
-        <p class="user content">UserName / PostAuthor</p>
-          <p class="blogcontent content text-center">
-            Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-          </p>
-      </div></a>
-      <a href="fullpage.html"><div class="container fullblog text-center">
-          <h2 class="blogtitle">Blog Title</h2>
-          <p class="user content">UserName / PostAuthor</p>
-            <p class="blogcontent content text-center">
-              Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-            </p>
-        </div></a>
-        <a href="fullpage.html"><div class="container fullblog text-center">
-            <h2 class="blogtitle">Blog Title</h2>
-            <p class="user content">UserName / PostAuthor</p>
-              <p class="blogcontent content text-center">
-                Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-              </p>
-          </div></a>
-          <a href="fullpage.html"><div class="container fullblog text-center">
-              <h2 class="blogtitle">Blog Title</h2>
-              <p class="user content">UserName / PostAuthor</p>
-                <p class="blogcontent content text-center">
-                  Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-                </p>
-            </div></a>
-            <a href="fullpage.html"><div class="container fullblog text-center">
-                <h2 class="blogtitle">Blog Title</h2>
-                <p class="user content">UserName / PostAuthor</p>
-                  <p class="blogcontent content text-center">
-                    Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-                  </p>
-              </div></a>
-              <a href="fullpage.html"><div class="container fullblog text-center">
-                  <h2 class="blogtitle">Blog Title</h2>
-                  <p class="user content">UserName / PostAuthor</p>
-                    <p class="blogcontent content text-center">
-                      Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-                    </p>
-                </div></a>
-                <a href="fullpage.html"><div class="container fullblog text-center">
-                    <h2 class="blogtitle">Blog Title</h2>
-                    <p class="user content">UserName / PostAuthor</p>
-                      <p class="blogcontent content text-center">
-                        Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.Destroy couch mewl for food at 4am or meow for food, then when human fills food dish, take a few bites of food and continue meowing pushes butt to face so white cat sleeps on a black shirt. Gate keepers of hell cat not kitten around chase dog then run away chirp at birds when in doubt, wash. Meow to be let out hopped up on catnip make muffins. Poop in litter box, scratch the walls touch water with paw then recoil in horror yet purrr purr littel cat, little cat purr purr. Asdflkjaertvlkjasntvkjn (sits on keyboard) pooping rainbow while flying in a toasted bread costume in space curl up and sleep on the freshly laundered towels for scream at teh bath chase ball of string chew iPad power cord. Destroy couch as revenge sit on the laptop please stop looking at your phone and pet me or immediately regret falling into bathtub lick butt, or present belly, scratch hand when stroked.
-                      </p>
-                  </div></a>
+    <div class="container text-center newpost hide">
+      <form class="" action="/posts" method="post">
+        <textarea placeholder="Start writing a new post.." id="textarea" name="name" rows="8" cols="80" value=""></textarea><br>
+        <button class="btn btn-primary" type="submit" name="button">Submit</button><br><br>
+      </form>
+    </div>
+
+
+            <% let parsed = JSON.parse(home) %>
+            <% for(var i = 0; i < parsed.length; i++) {%>
+              <a href="posts/<%=parsed[i].id%>">
+              <div class="container fullblog text-center">
+              <h2 class="blogtitle"><%= parsed[i].title%></h2>
+              <p class="user content"><%= parsed[i].name %></p>
+              <p class="blogcontent content text-center"><%= parsed[i].body %></p>
+              </div>
+              </a>
+            <% } %>
+
+
 </body>
 
 </html>
